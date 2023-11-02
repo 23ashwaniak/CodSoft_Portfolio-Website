@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact5 {
+            font-size: 3.5vh;
+            text-align: center;
+            margin-top: 50px;
+            border: 5px solid black;
+            border-radius: 50px;
+            background-color: rgb(180, 247, 180);
+        }
+
+        form {
+            border: 5px solid blue;
+            margin: 20px 460px 20px 460px;
+            border-radius: 50px;
+            background-color: rgb(81, 246, 81);
+            color: white;
+        }
+
+        .foot {
+            height: 480px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            font-size: 1.5em;
+            color: aqua;
+            background-color: black;
+
+        }
+
+        .foa,
+        .fob,
+        .foc {
+            padding-top: 30px;
+            text-align: center;
+        }
+
+        .foa img {
+            height: 38%;
+            width: 38%;
+        }
+
+        .fob img {
+            height: 30%;
+            width: 30%;
+        }
+
+        .foc img {
+            height: 25%;
+            width: 25%;
+        }
+
+        .foa li,
+        .fob li,
+        .foc li {
+            list-style-type: none;
+        }
+
+        .foa li:hover,
+        .fob li:hover,
+        .foc li:hover {
+            box-shadow: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contact5">
+        <form>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <br>
+                <p>
+                    <label>
+                        Salutation
+                        <br />
+                        <select name="salutation">
+                            <option>--None--</option>
+                            <option>Mr.</option>
+                            <option>Ms.</option>
+                            <option>Mrs.</option>
+                            <option>Dr.</option>
+                            <option>Prof.</option>
+                        </select>
+                    </label>
+                </p>
+
+
+                <p>
+                    <label>First name: <input name="firstName" /></label>
+                </p> <br>
+
+
+                <p>
+                    <label>Last name: <input name="lastName" /></label>
+                </p>
+                <br>
+
+                <p>
+                    Gender :
+                    <label><input type="radio" name="gender" value="male" /> Male</label>
+                    <label><input type="radio" name="gender" value="female" /> Female</label>
+                </p>
+                <br>
+
+                <p>
+                    <label>Email:<input type="email" name="email" /></label>
+                </p>
+                <br>
+
+                <p>
+                    <label>Date of Birth:<input type="date" name="birthDate"></label>
+                </p>
+                <br>
+
+                <p>
+                    <label>
+                        Address :
+                        <br />
+                        <textarea name="address" cols="30" rows="3"></textarea>
+                    </label>
+                </p>
+                <br>
+
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+                <br>
+            </fieldset>
+        </form>
+    </div>
+    <div class="foot">
+        <div class="hc"><img src="/foot.webp" alt=""></div>
+        <div class="foota">
+            <h1> Linked In</h1>
+            <h1>Facebook</h1>
+            <h1>Twitter</h1>
+            <h1>E-mail</h1>
+            <h1>Phone</h1>
+            <h1>Whats App</h1>
+            <h1>Instagram</h1>
+            <h1>GitHub</h1>
+        </div>
+        <div class="hc"><img src="/foot2.jpg" alt=""></div>
+    </div>
+    <hr>
+    <div class="footer">
+        <div class="foa">
+            <ol>
+                <li><img src="/f1.jfif" alt=""></li><br>
+                <li><img src="/f2.jfif" alt=""></li><br>
+                <li>By Ashwani</li>
+            </ol>
+        </div>
+        <div class="fob">
+            <ol>
+                <li><img src="f3.png" alt=""></li><br>
+                <li><img src="f4.png" alt=""></li><br>
+                <li>Copyright @2023</li>
+
+            </ol>
+        </div>
+        <div class="foc">
+            <ol>
+                <li><img src="f5.png" alt=""></li><br>
+                <li><img src="f6.png" alt=""></li><br>
+                <li>All Copyrights Reserved</li>
+
+            </ol>
+        </div>
+    </div>
+    <hr>
+</body>
+
+</html>

@@ -1,0 +1,384 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+hr {
+    height: 5px;
+    width: 100%;
+    background-color: aqua;
+
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background-image: url(/1.jpg);
+    background-repeat: no-repeat;
+}
+
+.name h1 {
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+.name {
+    animation: name 4s linear infinite;
+    color: red;
+    font-family: sans-serif;
+}
+
+@keyframes name {
+    70% {
+        opacity: 0;
+    }
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: aqua;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.link a {
+    font-size: 1.3em;
+}
+
+.link a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 3px solid blue;
+    transition: 0.2s linear;
+}
+
+.link a:hover:before {
+    width: 90%;
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 20px;
+    font-size: 1.2em;
+}
+
+.login a:hover {
+    background-color: white;
+    border: 3px solid aqua;
+}
+
+.main {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    margin-top: 100px;
+}
+
+.left h1:hover {
+    color: darkorange;
+}
+
+.right {
+    margin-top: 80px;
+}
+
+.right img:hover {
+    border: 10px solid lightgreen;
+    border-radius: 5px;
+}
+
+.main h1 {
+    font-size: 3em;
+}
+
+.main a {
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px 20px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+
+.main a:hover {
+    background-color: white;
+    border: 3px solid red;
+}
+
+.main h1 {
+    color: cadetblue;
+}
+
+.main span {
+    font-size: 1.6em;
+    color: darkmagenta;
+}
+
+.main p {
+    font-size: 1.2em;
+    color: blue;
+}
+
+#gif {
+    position: absolute;
+    left: 700px;
+    bottom: 20px;
+}
+
+#gif:hover {
+    border: 5px solid yellow;
+}
+
+.home {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(/home.jpg);
+    color: white;
+}
+
+.home:hover {
+    border: 5px solid red;
+}
+
+.home h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+
+.home h1:hover,
+.port h1:hover,
+.ach h1:hover,
+.skill h1:hover,
+.cont h1:hover,
+.foot h1:hover {
+    color: red;
+}
+
+.home p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+.home p:hover {
+
+    color: aqua;
+}
+
+.hb img,
+.hc img {
+    border: 5px solid blue;
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+}
+
+.hb img:hover,
+.hc img:hover,
+.hd img:hover {
+    border: 10px solid yellow;
+    border-radius: 20px;
+}
+
+
+.port {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(/port4.jpg);
+    color: white;
+}
+
+.port:hover {
+    border: 5px solid red;
+}
+
+.port h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+
+
+.port ul {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.ach {
+    height: 480px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(/ach.jpg);
+    color: white;
+}
+
+.ach:hover {
+    border: 5px solid red;
+}
+
+.ach h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.ach ul {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.skill {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-image: url(/skill4.jpg);
+    color: white;
+
+}
+
+.skill:hover {
+    border: 5px solid red;
+}
+
+.skilla {
+    margin-left: 00px;
+}
+
+.skill h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.skill ul {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.cont {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(/cont.jpg);
+    background-repeat: no-repeat;
+    background-color: pink;
+}
+
+.conta {
+    margin-left: 600px;
+    color: black;
+}
+
+
+.cont:hover {
+    border: 5px solid red;
+}
+
+.cont h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.cont ul {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.foot {
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: aqua;
+
+}
+
+.foota h1 {
+    text-align: center;
+}
+
+.foot:hover {
+    border: 5px solid red;
+}
+
+
+
+
+.port ul li:hover,
+.ach ul li:hover,
+.skill ul li:hover,
+.cont ul li:hover {
+    color: aqua;
+}
+
+.last {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-image: url(/last4.jpg);
+    background-repeat: no-repeat;
+    background-color: cornflowerblue;
+}
+
+#last1 {
+    margin-left: 950px;
+    font-size: 5em;
+    margin-top: 170px;
+}
+
+#last2 {
+    margin-left: 950px;
+    font-size: 5em;
+    margin-top: 00px;
+}
